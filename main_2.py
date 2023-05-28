@@ -31,5 +31,5 @@ if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     path_to_file = input(f'Введите путь к файлу на пк: ')
     token = input(f'Введите ваш TOKEN: ')
-    uploader = YaUploader(TOKEN)
+    uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
